@@ -1,0 +1,36 @@
+body {
+  background-color: #1f1f1f;
+  color: white;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+#content {
+  position: absolute;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+button {
+  height: 40px;
+  width: 60px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+  margin: 5px;
+  color: white;
+}
+
+#Start {
+  background-color: green;
+}
+#Pause {
+  background-color: gray;
+}
+#Stop {
+  background-color: red;
+}
